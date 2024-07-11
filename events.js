@@ -14,7 +14,7 @@ btn.addEventListener("click",toggleAppStatus);
 
 // Wechselschalter:  true = !false | false = !true
 function toggleAppStatus() {
-    appStatus = !appStatus; 
+    appStatus = !appStatus; //Zentrale Idee
     updateView();
 }
 
